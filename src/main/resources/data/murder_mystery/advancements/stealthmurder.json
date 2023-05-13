@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "stealthmurder": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

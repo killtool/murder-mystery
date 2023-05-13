@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "survivor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "murder_mystery:stealthmurder"
+}

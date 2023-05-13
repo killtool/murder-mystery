@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "murder_mystery:dagger"
+    },
+    "title": {
+      "translate": "advancements.sheriff.title"
+    },
+    "description": {
+      "translate": "advancements.sheriff.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sheriff": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "murder_mystery:stealthmurder"
+}

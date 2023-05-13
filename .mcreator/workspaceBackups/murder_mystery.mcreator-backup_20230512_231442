@@ -1,0 +1,176 @@
+{
+  "mod_elements": [
+    {
+      "name": "Stealthmurder",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stealthmurder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/murder_mystery/advancements/stealthmurder.json"
+        ]
+      }
+    },
+    {
+      "name": "Stealthmurderer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stealthmurderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/murdermystery/procedures/StealthmurdererProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Invis",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/murdermystery/network/InvisMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Unstealth",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unstealth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/murdermystery/procedures/UnstealthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/murdermystery/procedures/DaggerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/murdermystery/item/DaggerItem.java",
+          "src/main/resources/assets/murder_mystery/models/item/dagger.json"
+        ]
+      }
+    },
+    {
+      "name": "Murderer",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murderer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/murder_mystery/advancements/murderer.json"
+        ]
+      }
+    },
+    {
+      "name": "Survivor",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/murder_mystery/advancements/survivor.json"
+        ]
+      }
+    },
+    {
+      "name": "Sheriff",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheriff",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/murder_mystery/advancements/sheriff.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.murderer.title": "Murderer",
+      "advancements.murderer.descr": "your the murderer",
+      "advancements.stealthmurder.title": "Stealthmurder",
+      "advancements.stealthmurder.descr": "stealth murderer",
+      "advancements.survivor.title": "Survivor",
+      "advancements.sheriff.descr": "you are the sheriff",
+      "key.murder_mystery.invis": "Invis",
+      "advancements.survivor.descr": "you are a survivor",
+      "item.murder_mystery.dagger": "Dagger",
+      "advancements.sheriff.title": "Sheriff"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "murder_mystery",
+    "modName": "murder mystery",
+    "version": "1.0.0",
+    "author": "David, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.murdermystery",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

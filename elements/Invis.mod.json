@@ -1,0 +1,15 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Invis",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Stealthmurderer"
+    },
+    "onKeyReleased": {
+      "name": "Unstealth"
+    }
+  }
+}
